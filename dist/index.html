@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuppa</title>
+    <!-- custom css -->
+    <link rel="stylesheet" href="./style.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</head>
+    <body class="font-body scroll-smooth box-border" style="height: 3000px;">
+        <!-- hero -->
+        <header class="h-auto xl:h-screen" style="background: url('../src/images/hero.png') center/ cover;">
+            <nav class="flex flex-col md:flex-row justify-between items-center h-auto md:h-24 py-10 md:py-0 px-20">
+                <a href="index.html" class="font-bold text-3xl font-title">Cuppa</a>
+                <ul class="flex md:items-center gap-5 mt-7 md:mt-0">
+                    <li>
+                        <a href="index.html" class="font-medium font-title">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about" class="font-medium font-title">About</a>
+                    </li>
+                    <li>
+                        <a href="#products" class="font-medium font-title">Products</a>
+                    </li>
+                    <li>
+                        <a href="#menu" class="font-medium font-title">Menu</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="font-medium font-title">Contact</a>
+                    </li>
+                    <ul class="hidden lg:flex lg:justify-center gap-2">
+                        <li class="flex justify-center gap-0 items-center w-24 h-10 bg-tertiary text-white">
+                            <a href="#" class="font-medium font-title">Sign in</a>
+                        </li>
+                        <li class="flex justify-center gap-0 items-center w-24 h-10 border border-tertiary text-tertiary">
+                            <a href="#" class="font-medium font-title">Sign up</a>
+                        </li> 
+                    </ul>
+                </ul>
+            </nav><!-- /.navbar -->
+            <div class="flex flex-col justify-center w-8/12 lg:w-6/12 py-24 xl:py-32 px-10 md:px-20">
+                <h1 class="text-4xl md:text-5xl xl:text-6xl font-bold font-title">Discover the real taste of <span class="text-tertiary">coffee.</span></h1>
+                <p class="mt-6">We made of the best, strongest and longest-lasting materials. made of the best, strongest and longest-lasting materials.</p>
+                <a href="#" class="flex justify-center items-center mt-9 bg-tertiary text-white text-sm md:text-md font-title font-medium uppercase w-32 h-12 md:w-40 md:h-16">Order now</a>
+            </div>
+        </header> <!-- hero -->
+
+        <!-- about us -->
+        <section id="about" class="flex flex-col lg:flex-row justify-between items-center h-auto" style="background: url('../src/images/about-bg.png') center/cover;">
+            <div class="w-10/12 lg:w-6/12 flex flex-col p-10 lg:p-20">
+                <h2 class="text-3xl font-title text-primary pt-10">About us</h2>
+                <p class="lg:w-11/12 font-light mt-5 pr-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis sunt eius doloremque, rem est sapiente porro, ipsam possimus quidem ab at mollitia ullam facere officia, distinctio consequuntur repellat doloribus nulla.</p>
+                <div class="flex items-center gap-5 mt-8">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                    <ion-icon name="logo-instagram"></ion-icon>
+                    <ion-icon name="logo-tiktok"></ion-icon>
+                    <ion-icon name="logo-youtube"></ion-icon>
+                </div>
+            </div>
+            <div class="w-12/12 lg:w-6/12">
+                <img src="../src/images/about-us.jpg" alt="about us image" class="h-full">
+            </div>
+        </section>
+
+        <!-- products -->
+        <section id="products" class="bg-slate-50 flex flex-col justify-center items-center p-10 lg:p-20">
+            <h2 class="text-primary font-title font-medium text-2xl mb-10">Our products</h2>
+            <div class="flex flex-wrap justify-center md:justify-between w-12/12 md:w-10/12">
+                <div class="flex items-center gap-6 my-4">
+                    <div class="bg-white shadow-md w-20 h-20 rounded-full flex justify-center items-center">
+                        <img src="../src/images/icons8-coffee-to-go-100.png" class="w-10">
+                    </div>
+                    <div class="w-48 lg:w-52">
+                        <h4 class="font-title font-medium text-tertiary text-xl">Coffee</h4>
+                        <p class="font-light text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div><!-- flex -->
+                <div class="flex items-center gap-6 my-4">
+                    <div class="bg-white shadow-md w-20 h-20 rounded-full flex justify-center items-center">
+                        <img src="../src/images/icons8-tea-100.png" class="w-10">
+                    </div>
+                    <div class="w-48 lg:w-52">
+                        <h4 class="font-title font-medium text-tertiary text-xl">Tea</h4>
+                        <p class="font-light text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div><!-- flex -->
+                <div class="flex items-center gap-6 my-4">
+                    <div class="bg-white shadow-md w-20 h-20 rounded-full flex justify-center items-center">
+                        <img src="../src/images/icons8-coffee-beans-100.png" class="w-10">
+                    </div>
+                    <div class="w-48 lg:w-52">
+                        <h4 class="font-title font-medium text-tertiary text-xl">Coffee beans</h4>
+                        <p class="font-light text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div><!-- flex -->
+                <div class="flex items-center gap-6 my-4">
+                    <div class="bg-white shadow-md w-20 h-20 rounded-full flex justify-center items-center">
+                        <img src="../src/images/icons8-coffee-bag-100.png" class="w-10">
+                    </div>
+                    <div class="w-48 lg:w-52">
+                        <h4 class="font-title font-medium text-tertiary text-xl">Coffee bags</h4>
+                        <p class="font-light text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div><!-- flex -->
+                <div class="flex items-center gap-6 my-4">
+                    <div class="bg-white shadow-md w-20 h-20 rounded-full flex justify-center items-center">
+                        <img src="../src/images/icons8-pastry-100.png" class="w-10">
+                    </div>
+                    <div class="w-48 lg:w-52">
+                        <h4 class="font-title font-medium text-tertiary text-xl">Pastries</h4>
+                        <p class="font-light text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div><!-- flex -->
+                <div class="flex items-center gap-6 my-4">
+                    <div class="bg-white shadow-md w-20 h-20 rounded-full flex justify-center items-center">
+                        <img src="../src/images/icons8-cookies-100.png" class="w-10">
+                    </div>
+                    <div class="w-48 lg:w-52">
+                        <h4 class="font-title font-medium text-tertiary text-xl">Cookies</h4>
+                        <p class="font-light text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div><!-- flex -->
+            </div>
+        </section>
+
+        <!--- menu -->
+        <section id="menu" class="flex flex-col lg:flex-row lg:justify-between lg:items-center" style="background: url('../src/images/menu-bg.png') center/cover;">
+            <div class="w-12/12 lg:w-6/12">
+                <img src="../src/images/menu.jpg" alt="coffee with milk">
+            </div>
+            <div class="w-12/12 lg:w-6/12 p-10">
+                <div class="bg-white p-20 rounded-2xl shadow-md">
+                    <h2 class="text-primary font-title font-medium text-2xl mb-10">Our Menu</h2>
+                    <img src="../src/images/menu.png" alt="menu image">
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA -->
+        <section class="flex justify-center items-center gap-7 h-80 bg-tertiary mb-10">
+            <h5 class="font-title font-medium text-white text-3xl w-3/12">Subscribe to our Newsletter</h5>
+            <form class="flex items-center">
+                <input name="email" type="email" class="shadow-md rounded-s-2xl w-80 h-8 pl-10 text-sm" placeholder="Enter your email" autocomplete="off">
+                <a href="#" class="flex justify-center items-center bg-slate-300 text-tertiary text-sm md:text-md font-title font-medium w-32 h-8 rounded-e-2xl shadow-md">Subscribe</a>
+            </form>
+        </section>
+
+        <!-- contact us -->
+        <section id="contact" class="flex flex-col lg:flex-row lg:justify-between items-center h-auto p-20">
+            <div class="w-12/12 lg:w-6/12">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5791.247685893444!2d139.74285797533497!3d35.658580472594586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bbd9009ec09%3A0x481a93f0d2a409dd!2sTokyo%20Tower!5e1!3m2!1sen!2sus!4v1728898850156!5m2!1sen!2sus" width="100%" height="650" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="w-12/12 lg:w-6/12 mx-0 lg:mx-10 mt:10 lg:mt-0">
+                <div class="mb-10">
+                    <h4 class="font-title text-4xl text-tertiary">Keep in touch</h4>
+                    <p class="font-light mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolorum culpa consequuntur in deleniti enim vel cum ipsam consequatur.</p>
+                </div>
+                <form class="w-12/12 bg-white rounded-lg shadow-lg p-10">
+                   <div>
+                        <input name="username" type="text" class="border border-gray-200 hover:border-tertiary rounded-md w-full mt-2 text-xs p-3" placeholder="Enter your name" autocomplete="off">
+                    </div>
+                    <div class="mt-3">
+                        <input name="subject" type="text" class="border border-gray-200 hover:border-tertiary rounded-md w-full mt-2 text-xs p-3" placeholder="Subject" autocomplete="off">
+                    </div>
+                    <div class="mt-3">
+                        <input name="email" type="email" class="border border-gray-200 hover:border-tertiary rounded-md w-full mt-2 text-xs p-3" placeholder="Enter your email" autocomplete="off">
+                    </div>
+                    <div class="mt-3">
+                        <textarea name="message" rows="10" class="border border-gray-200 hover:border-tertiary rounded-md w-full mt-2 text-xs p-3" placeholder="Message"></textarea>
+                    </div>
+                    <div class="mt-4">
+                        <a href="#" class="flex justify-center items-center bg-tertiary text-white text-sm md:text-md font-title font-medium w-20 h-10 rounded-full shadow-md">Submit</a>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <!-- footer -->
+        <footer class="flex justify-center items-center bg-black h-40 p-20">
+            <p class="text-white font-medium text-lg">Copyrights 2024 - Develoepd with Love <ion-icon name="heart" class="pt-2"></ion-icon></p>
+        </footer>
+    </body>
+</html>
